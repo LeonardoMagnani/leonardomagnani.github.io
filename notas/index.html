@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas</title>
+    <link rel="stylesheet" href="./assets/main.css">
+</head>
+
+<body>
+    <h1>Cadastramento de notas finais</h1>
+    <p>Digite os nome, nota e a turma dos alunos. </p>
+
+    <div class="container-form">
+        <span class="center">Aluno</span>
+        <input type="text" name="nome" id="nome">
+        <span class="center">Nota final</span>
+        <input type="number" name="nota" id="nota">
+        <span class="center">Turma</span>
+        <label for="turma" class="form-turma" style="text-align: center;">
+            <select name="turma" id="form-turma" >
+                <option disabled selected>Turma</option>
+                <option value="1º A">1º A</option>
+                <option value="1º B">1º B</option>
+                <option value="1º C">1º C</option>
+                <option value="2º A">2º A</option>
+                <option value="2º B">2º B</option>
+                <option value="2º C">2º C</option>
+            </select>
+        </label>
+        <input type="button" value="Adicionar" id="adicionar" onclick="validarArray (aluno)">
+        <table id="table" >
+            <tr class="cabecalho">
+                <th>ID</th>
+                <th style="width: 60%;">Nome</th>
+                <th>Nota</th>
+                <th>Turma</th>
+                <th>&nbsp; &nbsp; &nbsp;</th>
+            </tr>
+        </table>
+        <div class="situacao">
+            <input type="button" value="Aprovados" id="aprovados">
+            <input type="button" value="Reprovados" id="reprovados">
+        </div>
+        <p class="qtdP">Qtd Alunos: <span id="qtdP">0</span></p>
+    </div>
+    
+    <div class="popUpFull" >
+        <input type="button" value="" onclick="closePop()" id="buttonClose">
+        <div class="popUp">
+            <ul id="ulPop">
+                
+            </ul>
+        </div>
+    </div>
+
+    <footer>Desenvolvido por Leonardo Magnani</footer>
+
+    <script src="../notas/assets/main.js"></script>
+</body>
+</html>

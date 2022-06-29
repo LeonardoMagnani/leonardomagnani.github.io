@@ -1,0 +1,236 @@
+body {
+    background: url('https://i0.wp.com/diventare.com.br/wp-content/uploads/2019/01/background-site-antigo.jpg') no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+body > h1, body > p {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+h1 {
+    margin-bottom: 5px;
+    font-size: 2.8em;
+}
+
+body > p {
+    margin-bottom: 40px ;
+}
+
+input {
+    outline: none;
+}
+
+th {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid black;
+    border-top: 1px solid black;
+}
+
+tr {
+    padding: none;
+    margin: none;
+}
+
+tr > th {
+    color: rgb(0, 0, 0);
+}
+
+#table {
+    width: 100%;
+    text-align: center;
+    align-self: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+tr:hover {
+    background-color: rgb(192, 192, 192);
+} 
+
+.container-form {
+    background: rgba(255, 255, 255, 0.104);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 40%;
+    padding: 50px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 3px 8px #2323233d;
+    min-height: 300px;
+}
+
+.qtdP {
+    align-self: flex-end;
+    position: absolute;
+    bottom: 10px;
+    margin-right: 10px;
+    margin-bottom: 0 !important;
+    font-size: 0.7em;
+}
+
+.trash-button {
+    height: 20px;
+    width: 20px;
+    background: url('https://assets.webiconspng.com/uploads/2017/01/Red-Trash-Simple-Icon.png') no-repeat top;
+    background-size: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+.alunosTlCol2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1em;
+}
+
+.situacao {
+    position: absolute;
+    bottom: 10px;
+    margin-right: 10px;
+    margin-bottom: 0 !important;
+    font-size: 0.7em;
+}
+#aprovados, #reprovados {
+    display: inline;
+    width: 100px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    padding: 4px;
+    margin-right: 10px;
+}
+
+#aprovados {
+    background-color: green;
+}
+
+#aprovados:hover {
+    background-color: rgb(2, 66, 2);
+}
+
+#reprovados {
+    background-color: red;
+}
+
+#reprovados:hover {
+    background-color: rgb(121, 0, 0);
+}
+
+.popUpFull {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 100vh;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.popUpFull-active-aprovados {
+    display: flex;
+}
+
+.popUp {
+    position: fixed;
+    display: flex;
+    min-width: 300px;
+    min-height: 300px;
+    background-color: white;
+    z-index: 101;
+    flex-direction: column;
+    padding:20px;
+}
+
+#buttonClose {
+    background-color:rgba(255, 255, 255, 0.227);
+    border: none;
+    width: 100%;
+    height: 100vh;
+}
+
+ul {
+    list-style:decimal;
+}
+
+li {
+    text-transform:capitalize;
+}
+
+footer {
+    position: absolute;
+    bottom: 5px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input, button, label {
+    margin-bottom: 10px;
+}
+
+span {
+    color: white;
+}
+
+#nome, #nota {
+    color: rgb(255, 89, 0);
+    background-color: white;
+    padding-left: 20px;
+    border: none;
+    border-radius: 15px;
+    align-self: center;
+    width: 40%;
+    padding: 5px;
+    box-shadow: 3px 3px 8px #2323233d;
+}
+
+#nome:focus, #nota:focus {
+    background-color: rgb(133, 46, 0);
+    color: white;
+}
+
+#adicionar {
+    background-color: rgb(255, 89, 0);
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    align-self: center;
+    width: 40%;
+    padding: 5px;
+    box-shadow: 3px 3px 8px #2323233d;
+}
+
+#adicionar:hover {
+    background-color: rgb(133, 46, 0);
+}
+
+.center {
+    align-self: center;
+}
+
+#form-turma {
+    cursor: pointer;
+    color: rgb(255, 89, 0);
+    background-color: white;
+    padding-left: 20px;
+    border: none;
+    border-radius: 15px;
+    align-self: center;
+    width: 40%;
+    padding: 5px;
+    box-shadow: 3px 3px 8px #2323233d;
+    margin-bottom: 15px;
+}

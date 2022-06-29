@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+body {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 23%, rgba(220,29,253,1) 75%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}   
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    color: rgb(131,58,180);
+    width: 100%;
+    background-color: #fff;
+    padding: 15px 0;
+    box-shadow: 4px 3px 10px #2f2f2f38;
+}
+
+header > h1 {
+    margin: 0;
+}
+
+header > p {
+    color: grey;
+}
+
+header > div {
+    margin: 15px 0;
+}
+
+.all {
+    width: 40%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: 4px 3px 10px #2f2f2f38;
+    text-align: center;
+    margin-top: 100px;
+    padding: 25px;
+}
+
+.all > input {
+    margin-top: 25px;
+}
+
+#inputText {
+    background: transparent;
+    border-radius: 25px;
+    padding: 8px;
+    border: 1px solid #fff;
+    padding-right: 10px;
+    color: white;
+}
+
+#buttonAdd {
+    position: relative;
+    left: -35px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background: url('./plus.png');
+}
+
+#buttonAdd:hover {
+    color: rgb(175, 175, 175);
+}
+
+button {
+    background: url('./img/trash.png') center center no-repeat;
+    background-size: 50%;
+    border: none;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    padding-left: 30px;
+}
+
+button:hover {
+    background: url('./img/trash-hover.png') center center no-repeat;
+    background-size: 50%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.todo {
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    align-items: center;
+    color: white;
+    font-size: 1.2em;
+}
+
+footer {
+    width: 100%;
+    display: block;
+    position: fixed;
+    text-align: center;
+    padding-bottom: 10px;
+    bottom: 0px;
+    color: white;
+}

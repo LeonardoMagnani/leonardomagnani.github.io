@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial | Museu Nacional</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!--[if lt IE 9]>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <header id="header-principal">
+        <div id="logo">
+            <p>MUSEU NACIONAL</p>
+            <a href="#"><img src="./img/logo.png" alt="Logo Museu Nacional"></a>
+        </div>
+        <nav id="main-menu">
+            <ul id="menu-itens">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ESPOSIÇÕES</a></li>
+                <li><a href="#">PESQUISA</a></li>
+                <li><a href="#">ACERVO</a></li>
+                <li><a href="#">VÍDEOS</a></li>
+                <li><a href="#">FOTOS</a></li>
+                <li><a href="#">CONTATO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="conteudo-principal">
+        <div id="conteudo">
+            <section id="capa" class="width-100">
+                <img src="./img/museu.png" alt="Foto do Museu Nacional" id="capa-foto" class="width-100">
+            </section>
+            <section id="conteudo-2">
+                <div id="conteudo-2-1">
+                    <div id="conteudo-2-1-1">
+                        <h4>VÍDEO: CONHEÇA O MUSEU</h4>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/RGUYb-hivrc" title="Museu Nacional - Apresentação" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div id="conteudo-2-1-2">
+                        <h4>EXPOSIÇÕES</h4>
+                        <ul id="lista-link">
+                            <li><a href="#">Os assustadores insetos</a></li>
+                            <li><a href="#">O crânio de Luzia, a mulher mais antiga do Brasil</a></li>
+                            <li><a href="#">Preguiça gigante e tigre-dentes-de-sabre</a></li>
+                            <li><a href="#">Plantas do Brasil Central</a></li>
+                            <li><a href="#">Teresa Cristina: A Imperatriz Arqueóloga</a></li>
+                            <li><a href="#">Arte Com Dinossauros - Paleoarte</a></li>
+                            <li><a href="#" id="veja-todos">Veja todos (65)</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="conteudo-2-2">
+                    <div id="conteudo-2-2-1">
+                        <h4>MAPA: ENCONTRE O MUSEU</h4>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14700.825245036422!2d-43.226529!3d-22.905760000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1637287394887!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <div id="conteudo-2-2-2">
+                        <h4>200 ANOS DE HISTÓRIA</h4>
+                        <p>Numa ponta que avançava sobre o mar, posteriormente conhecida como Ponta do Calabouço, entre as praias de Piaçaba e Santa Luzia, no centro histórico do Rio de Janeiro, os portugueses construíram em 1603 a Fortaleza de Santiago, origem do conjunto arquitetônico que hoje abriga o Museu Histórico Nacional.</p>
+                        <a href="#">Leia mais</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <aside id="barra-lateral">
+
+            <section id="depoimento" class="width-100">
+                <img src="./img/depoimento.png" alt="Depoimento sobre o museu nacional" id="depoimento-foto" class="width-100">
+            </section>
+
+            <section id="visita">
+                <div class="padding">
+                    <h4>FAÇA UMA VISITA</h4>
+                    <form action="#">
+                        <label for="input-data">Data:</label>
+                        <input type="date" name="data" id="input-data">
+                        <label for="input-number">Qtd. Pessoas:</label>
+                        <input type="number" name="" id="input-number">
+                        <input type="submit" value="Verificar Disponibilidade" id="input-submit">
+                    </form>
+                </div>
+            </section>
+
+            <section id="galeria">
+                <div class="padding-edit">
+                    <h4>GALERIA DE FOTOS</h4>
+                    <div class="galeria-img">
+                        <a href="#">
+                            <img src="./img/imagem1.jpg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="./img/imagem2.jpg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="./img/imagem3.jpg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="./img/imagem4.jpg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="./img/imagem5.jpg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="./img/imagem6.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+               
+            </section>
+        </aside>
+    </section>
+</body>
+</html>

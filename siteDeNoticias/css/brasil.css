@@ -1,0 +1,271 @@
+/* CONFIGURAÇÕES GERAIS */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* BORDER APLICÁVEL PARA PARÂMETRO E CLEAR PARA FLOAT*/
+
+.border {
+    border: 1px solid red;
+}
+
+.clear {
+    clear: both;
+}
+
+/* MENU DE NAVEGAÇÃO TOPO */
+
+.header-1 {
+    background: #294C71 url('../img/fundo.png') repeat-x left bottom;
+    height: 233px;
+}
+
+.container-1 {
+    width: 900px;
+    height: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+    background: url('../img/detalhe-topo.png') no-repeat right top;
+}
+
+#menu-navegacao {
+    margin-top: 10px;
+}
+
+#menu-navegacao ul {
+    padding: 0;
+    background: #a5002f;
+    display: inline-block;
+    line-height: 2.5em;
+}
+
+#menu-navegacao li {
+    display: inline-block;
+    padding-left: 29px;
+    padding-right: 29px;
+    background: url(../img/divisor.png) no-repeat right center;
+}
+
+#menu-navegacao a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9em;
+    display: inline-block;
+    width: 100%;
+}
+
+#menu-navegacao a:hover {
+    text-decoration: none;
+    color: #de003e !important;
+}
+
+#icone-selecionado a:hover {
+    color: white !important;
+}
+
+#ultimo-icone {
+    background: none !important;
+}
+
+#icone-selecionado, #icone-selecionado a {
+    background: #de003e !important;
+    cursor: text;
+}
+
+/* ------------------------ CONTEÚDOS ------------------------ */
+
+
+/* CONFIGURAÇÕES DE ESPAÇO EM 2 COLUNAS */
+
+.container-2 {
+    width: 900px;
+    margin: 0 auto;
+}
+.content {
+    width: 70%;
+    float: right;
+    margin: 0;
+    display: inline;
+}
+
+.side-nav {
+    width: 24%;
+    float: left;
+    margin-right: 3%;
+}
+
+.side-nav-edit {
+    margin-top: -100px;
+}
+
+.content img { 
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+/* FORMATAÇÃO DE TÍTULOS */
+
+.content-title {
+    background: #294C71;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+    line-height: 2em;
+    margin-top: 28px !important;
+    margin-bottom: 20px !important;
+    padding-left: 10px !important;
+}
+
+/* FORMATAÇÃO DE LINKS */
+
+.itens-entrevistas li, .itens-entrevistas a, .itens-entrevistas {
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.itens-entrevistas {
+    padding: 0;
+}
+
+.itens-entrevistas a {
+    width: 100%;
+    height: 100%;
+}
+
+.itens-entrevistas li {
+    padding: 10px 0 10px 10px;
+}
+
+.itens-entrevistas li:hover {
+    background: url('../img/marcador.png') no-repeat left;
+    cursor: pointer;
+    padding: 10px 0 10px 25px;
+}
+
+.itens-entrevistas a:hover {
+    color: rgb(130, 130, 130);
+}
+
+.first-content {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.first-content h3 {
+    margin: 0 0 10px 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+.content-h3 {
+    background: #de003e;
+    color: white;
+    padding: 2px;
+}
+
+.content-p {
+    margin: 0;
+    padding: 0;
+}
+
+.leia-mais {
+    color: #de003e;
+}
+
+.first-content img {
+    width: 100%;
+}
+
+/* CONFIGURAÇÃO SEGUNDO CONTEÚDO */
+
+.img-content {
+    float: right;
+    display: inline;
+    width: 100px;
+}
+
+.img-content img {
+    width: 100px;
+}
+
+.text-content {
+    margin: 0;
+    padding: 0;
+    float: right;
+    display: inline;  
+    width: 150px;
+}
+
+.text-content h4 {
+    font-size: 0.8em;
+    margin: 0;
+    padding: 0; 
+}
+
+.text-content h4 a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.text-content p {
+    margin-top: 3px;
+    font-size: 0.8em;
+}
+
+.next-contents {
+    margin-top: 5px !important;
+}
+
+/* CONFIGURAÇÃO NEWS LETTER */
+
+.side-nav fieldset {
+    box-shadow: 5px 6px 10px rgb(179, 179, 179);
+}
+
+.checkbox-content {
+    display: block;
+    margin: 10px 0 10px 0;
+    font-size: 0.7em;
+}
+
+.submit-content input {
+    background: #de003e;
+    color: white;
+    margin: 10px 0 10px 0;
+    display: block;
+    border: none;
+    width: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 5px 6px 10px rgb(179, 179, 179);
+    line-height: 1.5em;
+}
+
+.submit-content input:hover {
+    background-color: #a5002f;
+}
+
+/* FOOTER */
+
+footer {
+    line-height: 3.5em;
+    background-color: #294C71;
+    color: white;
+    font-weight: bold;
+    padding: 0;
+    margin-top: 25px;
+    text-align: center;
+}
+
+footer h5 {
+    padding: 0;
+    margin: 0;
+}

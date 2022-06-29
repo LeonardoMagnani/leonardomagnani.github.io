@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mata Mosquito</title>
+    <link rel="stylesheet" href="./src/main.css">
+</head>
+<body>
+    <div class="container">
+        <img src="./src/img/vitoria.png" id="vitoria">
+        <img src="./src/img/game_over.png" id="gameover-img">
+        <img src="./src/img/game.png" id="game-img">
+        <select name="dificulty" id="dificulty-select">
+            <option value="" disabled selected>--Dificuldade--</option>
+            <option value="1100">Fácil</option>
+            <option value="900">Médio</option>
+            <option value="700">Difícil</option>
+        </select>
+        <input type="button" value="Iniciar" id="startbutton">
+        <div class="timingLifes">
+            <img src="./src/img/coracao_cheio.png" id="vida-1">
+            <img src="./src/img/coracao_cheio.png" id="vida-2">
+            <img src="./src/img/coracao_cheio.png" id="vida-3">
+            <p>Tempo:</p><span id="time-count">30</span>
+        </div>
+    </div>
+    <script src="./src/main.js"></script>
+</body>
+</html>

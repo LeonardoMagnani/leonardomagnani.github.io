@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub</title>
+    <link rel="stylesheet" href="./assets/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&display=swap" rel="stylesheet">
+    
+
+</head>
+<body>
+
+    <div id="div-container">
+        <h1>GitHub API</h1>
+        <p>Digite o usuário e pressione o botão para checar os dados do GitHub.</p>
+        <div>
+            <input type="text" id="text-user">
+            <input type="button" value="Exibir" id="button-user">
+        </div>
+    
+        <div id="data">
+            <img src="https://avatars.githubusercontent.com/u/30714018?v=4" alt="" class="user-img" id="user-img">
+            <span class="user-id" id="user-id">30714018</span>
+            <span class="user-name" id="user-name">Leonardo</span>
+            <span class="user-bio" id="user-bio">Desenvolvedor Front-End</span>
+            <span class="user-location" id="user-location">Botucatu, SP</span>
+            <span class="user-link" id="user-link"></span>
+            <div>
+                <span class="user-followers" id="user-followers">30</span>
+                <span class="user-following" id="user-following">10</span>
+            </div>
+            <a href="" class="link" id="link" target="_blank"><img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" alt=""></a>
+        </div>
+
+        <div class="not-found" id="not-found">
+            <p id="not-found-p"></p>
+        </div>
+
+    </div>
+
+    <script src="./assets/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    outline: none;
+}
+
+body {
+    background: rgb(236,100,192);
+    background: linear-gradient(90deg, rgba(236,100,192,1) 0%, rgba(224,103,96,1) 100%);
+}
+
+input {
+    color: palevioletred;
+}
+
+#text-user {
+    display: inline;
+    width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+#button-user {
+    display: inline;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+#button-user:hover {
+    box-shadow: 1px 1px 10px #00000066;
+}
+
+#div-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#div-container > h1 {
+    font-weight: 500;
+    margin-top: 100px;
+}
+
+#div-container > p {
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+#data {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.user-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 1px 1px 10px #00000066;
+    margin-bottom: 15px;
+}
+
+.user-id {
+    font-size: 14px;
+    font-weight: 100;
+    margin-bottom: -5px;
+}
+
+.user-id::before {
+    content: "#";
+}
+
+.user-name {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.user-bio {
+    font-size: 1em;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+
+.user-location {
+    background: url(https://www.seekpng.com/png/full/1009-10091965_ubicacion-png-place-icon-png-white.png) no-repeat left;
+    background-size: 6%;
+    padding-left: 20px;
+}
+
+.user-followers {
+    font-size: 4em;
+}
+
+.user-followers::before {
+    content: "Followers";
+    font-size: 12px;
+    display: inline-block;
+    text-align: center;
+    transform: rotate(270deg);
+}
+
+.user-following {
+    font-size: 4em;
+}
+
+.user-following::before {
+    content: "Following";
+    font-size: 12px;
+    display: inline-block;
+    text-align: center;
+    transform: rotate(270deg);
+}
+
+.link, .link > img{
+    width: 92px;
+    margin-top: 20px;
+}
+
+.link:hover, .link > img:hover{
+    width: 98px;
+    margin-top: 20px;
+}
+
+.not-found {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    font-weight: 500;
+    font-size: 1.5em;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 25px;
+    margin-top: 100px;
+}

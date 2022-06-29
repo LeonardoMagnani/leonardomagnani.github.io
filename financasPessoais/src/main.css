@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none !important;
+}
+
+.button-verificar {
+    margin-left: 10px;
+}
