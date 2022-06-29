@@ -1,2 +1,0 @@
-# leonardomagnani.github.io
-Portólio
